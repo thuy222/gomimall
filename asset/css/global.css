@@ -1,0 +1,68 @@
+:root {
+    --text-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: roboto, arial, helvetica;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__5-column {
+    width: 20%;
+    padding: 10px 15px;
+}
+
+.grid__2-column {
+    width: 16.6667%;
+}
+
+.grid__8-column {
+    width: 83.3334%;
+}
+
+.grid @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.food-cart:hover {
+    background: black;
+}
+
+.add-food:hover {
+    background: black;
+}
+
+.add-food {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    background: #B3B3B3;
+    padding: 5px;
+    font-size: 2rem;
+}
+
+.food-cart {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    background: #B3B3B3;
+    padding: 5px;
+    font-size: 2rem;
+}

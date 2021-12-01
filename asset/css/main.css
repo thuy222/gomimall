@@ -1,0 +1,502 @@
+.header {
+    background: #f15d22;
+    padding: 15px 0;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.navbar__list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.navbar__list-item {
+    margin-right: 4rem;
+}
+
+.navbar__list-item a {
+    color: white;
+}
+
+.list-item_img {
+    width: 22px;
+}
+
+.navbar__my-noti {
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.navbar__my-noti:hover~.noti-info {
+    display: block;
+    cursor: pointer;
+}
+
+.noti-number {
+    position: absolute;
+    top: -4px;
+    right: 114px;
+    font-size: 1rem;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    background: #d3d3d3;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.noti-info {
+    position: absolute;
+    right: 50px;
+    top: 45px;
+    width: 350px;
+    background: white;
+    display: none;
+    z-index: 2;
+}
+
+.noti-info__list {
+    padding-left: 0;
+    list-style: none;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.noti-info::after {
+    content: "";
+    position: absolute;
+    top: -26px;
+    right: 20px;
+    border: 15px solid;
+    border-color: transparent transparent white transparent;
+}
+
+.navbar__my-noti::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    top: 15px;
+    right: 0;
+    height: 20px;
+    width: 115px;
+    /* background-color: red; */
+}
+
+.noti-info__list-item:hover {
+    background-color: #f5f5f5;
+}
+
+.list-item__link {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #e8e8e8;
+    text-decoration: none;
+}
+
+.list-item__img {
+    min-width: 55px;
+    object-fit: contain;
+}
+
+.list-item__content {
+    padding-left: 10px;
+}
+
+.list-item__content-main {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.list-item__content-detail {
+    font-size: 1.2rem;
+    color: #007ff0;
+    font-weight: 400;
+}
+
+.list-item__content-date {
+    font-size: 1.2rem;
+    color: #999;
+}
+
+.noti-info__all-noti {
+    display: block;
+    height: 50px;
+    background: #d3d3d3;
+    text-align: center;
+    line-height: 50px;
+}
+
+.header-search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-search__logo {
+    width: 160px;
+    height: 45px;
+    margin-right: 120px;
+}
+
+.header-form {
+    display: flex;
+}
+
+.header-select__form {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+#form__select {
+    width: 180px;
+    height: 40px;
+    border: none;
+    background: rgb(245, 245, 245)
+}
+
+form#search {
+    position: relative;
+    font-size: 1.3rem;
+    ;
+}
+
+.form__search {
+    width: 360px;
+    height: 40px;
+    border: none;
+}
+
+form#search .search-icon {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    padding: 10px;
+    background: rgb(211, 211, 211);
+}
+
+.header__account {
+    display: flex;
+    position: relative;
+}
+
+.account-icon {
+    font-size: 4rem;
+}
+
+.account-icon:hover~.account-login {
+    display: flex;
+    cursor: pointer;
+}
+
+.acount-text {
+    font-size: 1.3rem;
+    color: white;
+    line-height: 1.3rem;
+    padding-left: 8px;
+}
+
+.account-login {
+    position: absolute;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+    right: -35px;
+    background: white;
+    padding-left: 10px;
+    font-size: 1.3rem;
+    display: none;
+}
+
+.account-login::after {
+    content: "";
+    top: -19px;
+    left: 13px;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent white transparent;
+}
+
+.account-login a {
+    padding: 2px 0;
+    color: black;
+}
+
+.header__cart a {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.cart-icon {
+    font-size: 4rem;
+}
+
+
+/* ======================END HEADER================= */
+
+.container-top {}
+
+.container-navbar {
+    z-index: 1;
+}
+
+.container-navbar__list {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding-left: 0px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid rgb(237, 237, 237);
+    margin-bottom: 0;
+}
+
+.navbar__list-top {
+    margin-right: 38px;
+}
+
+.navbar__list-top-list {
+    width: 260px;
+    background: rgb(211, 211, 211);
+    padding-left: 25px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+li.navbar__list-top-list:hover .top-list-product {
+    display: block;
+    animation: fadeIn ease-in 0.4s;
+    transform-origin: right top;
+    cursor: pointer;
+}
+
+
+/* Danh mục sản phẩm */
+
+ul.top-list-product {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    display: none;
+    background: white;
+}
+
+.top-list-item a {
+    color: black;
+    font-weight: 400;
+}
+
+li.top-list-item:hover {
+    background: rgb(147, 205, 165);
+}
+
+li.top-list-item .top-list-item__more-detail {
+    color: #2c92ae;
+}
+
+.navbar__list-top-list i {
+    padding-right: 5px;
+}
+
+div.owl-carousel,
+.owl-theme {
+    z-index: 0;
+}
+
+
+/* Start container-featured  */
+
+.container-featured {}
+
+.featured__navbar {
+    margin-top: 40px;
+    background: #D3D3D3;
+    height: 40px;
+}
+
+.featured__navbar h2 {
+    color: black;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+.featured__product {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature__product-item:hover {
+    border: 1px solid black;
+    display: block;
+}
+
+.feature__product-item-img {
+    max-width: 100%;
+    align-items: center;
+}
+
+.feature__product-item-title {
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.container-content__navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #B3B3B3;
+    margin-top: 10px;
+}
+
+.content__navbar-title {
+    min-width: 150px;
+    height: 40px;
+    background: #B3B3B3;
+    /* border-bottom: 1px solid #B3B3B3; */
+    line-height: 40px;
+    padding-left: 15px;
+    margin-bottom: 0;
+    color: white;
+    padding-right: 15px;
+}
+
+.content__navbar-title-list {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.content__navbar-title-list-item {
+    font-size: 14px;
+    color: #222222;
+    font-weight: 500;
+    margin-left: 20px;
+    line-height: 40px;
+}
+
+.container-list-food {
+    padding: 15px;
+    display: flex;
+    border: 1px solid #B3B3B3;
+}
+
+.list-food__sidebar {
+    max-width: 26.315%;
+}
+
+.list-food__sidebar-img {
+    max-width: 100%;
+}
+
+.list-food__main {
+    max-width: 73.685%;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-food__item:hover .list-food__buy {
+    display: block;
+    animation: fadeIn ease-in-out 1s;
+    transform-origin: 50% 50%;
+}
+
+.list-food__item {
+    max-width: 25%;
+    padding: 10px;
+    position: relative;
+}
+
+.list-food__buy {
+    position: absolute;
+    bottom: 125px;
+    right: 55px;
+    display: none;
+}
+
+.list-food__item-thumb {}
+
+.list-food-img {
+    max-width: 100%;
+}
+
+.list-food-title {
+    font-size: 1.4rem;
+    color: #222222;
+    font-weight: 500;
+    line-height: 2rem;
+    height: 2rem;
+    margin: 5px 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.food-price-rate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-food-price {
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.list-food-rate {
+    color: orange;
+    font-size: 1.2rem;
+}
+
+
+/* ============FOOOTER========= */
+
+.footer {
+    background-color: #F15D22;
+    margin-top: 25px;
+    padding: 40px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__about-gomi {
+    width: 33%;
+    color: white;
+}
+
+.about-gomi {
+    padding-left: 0;
+    list-style: none;
+    font-size: 1.6rem;
+    ;
+}
+
+.about-gomi__title {
+    font-weight: bold;
+}
+
+.about-gomi__detail {
+    padding: 5px 0;
+}
+
+.footer-social {
+    font-size: 4rem;
+}
+
+.copyright {
+    font-size: 1.4rem;
+    color: white;
+}

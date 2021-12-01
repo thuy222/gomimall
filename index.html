@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/reset.css">
+    <link rel="stylesheet" href="asset/css/global.css">
+    <link rel="stylesheet" href="asset/css/main.css">
+    <link rel="stylesheet" href="asset/font/css/all.css">
+    <link rel="stylesheet" href="asset/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="asset/owlcarousel/assets/owl.theme.default.min.css">
+
+    <script src="asset/jquery.min.js"></script>
+    <script src="asset/owlcarousel/owl.carousel.min.js"></script>
+    <title>Clone Gomimall.vn</title>
+</head>
+
+<body>
+    <div class="gomimall">
+        <header class="header">
+            <div class="grid">
+                <div class="header__navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__list-item">
+                            100% Nhập Khẩu Hàn Quốc
+                        </li>
+                        <li class="navbar__list-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="">info@gomicorp.vn</a>
+                        </li>
+                        <li class="navbar__list-item">
+                            <i class="fas fa-phone-square-alt"></i>
+                            <a href="">(028) 7306 9796</a>
+
+                        </li>
+                        <li class="navbar__list-item">
+                            <img src="asset/image/header-korea-flag.png" alt="" class="list-item_img">
+                        </li>
+                    </ul>
+                    <div class="navbar__noti">
+
+                        <span class="navbar__my-noti"><i class="noti-icon far fa-bell"></i>
+                            <span class="noti-number">5</span> Thông báo của tôi
+                        </span>
+
+                        <div class="noti-info">
+                            <ul class="noti-info__list">
+                                <li class="noti-info__list-item">
+                                    <a href="" class="list-item__link">
+                                        <img src="asset/image/header-noti.jpg" alt="" class="list-item__img">
+                                        <div class="list-item__content">
+                                            <h5 class="list-item__content-main">Thông báo thay đổi domain sang Gomimall.vn
+                                                <nav class="list-item__content-detail">Chi tiết</nav>
+                                            </h5>
+                                            <nav class="list-item__content-date">11/06/2021</nav>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="noti-info__list-item">
+                                    <a href="" class="list-item__link">
+                                        <img src="asset/image/header-noti2.jpg" alt="" class="list-item__img">
+                                        <div class="list-item__content">
+                                            <h5 class="list-item__content-main">Ra mắt tính năng mới tại Gomimall VN - Không ngại mưa gió, đã có Gomi lo
+                                                <nav class="list-item__content-detail">Chi tiết</nav>
+                                            </h5>
+                                            <nav class="list-item__content-date">11/06/2021</nav>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="noti-info__list-item">
+                                    <a href="" class="list-item__link">
+                                        <img src="asset/image/header-noti3.jpg" alt="" class="list-item__img">
+                                        <div class="list-item__content">
+                                            <h5 class="list-item__content-main">Tinhte.vn Trên tay ghế trẻ em Duoback MIlky 218D: cứng cáp, kiểu dáng đẹp, màu tươi
+                                                <nav class="list-item__content-detail">Chi tiết</nav>
+                                            </h5>
+                                            <nav class="list-item__content-date">11/06/2021</nav>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="noti-info__list-item">
+                                    <a href="" class="list-item__link">
+                                        <img src="asset/image/header-noti4.jpg" alt="" class="list-item__img">
+                                        <div class="list-item__content">
+                                            <h5 class="list-item__content-main">Gomi nhận Giấy chứng nhận Doanh nghiệp xuất khẩu từ Kotra
+                                                <nav class="list-item__content-detail">Chi tiết</nav>
+                                            </h5>
+                                            <nav class="list-item__content-date">11/06/2021</nav>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="" class="noti-info__all-noti">Xem tất cả thông báo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-search">
+                    <img src="asset/image/header-logo.png" alt="" class="header-search__logo">
+                    <div class="header-form">
+                        <form action="" class="header-select__form">
+                            <select name="" id="form__select">
+                            <option value="0">Chọn danh mục</option>
+                            <option value="1">FOOD</option>
+                            <option value="2">FASHION</option>
+                            <option value="3">BEAUTY</option>
+                            <option value="4">Father's Day Event</option>
+                            <option value="5">Ốp lưng điện thoại</option>
+                            <option value="6">Gomi Mall top 10</option>
+                        </select>
+                        </form>
+                        <form action="" id="search">
+                            <input type="text" class="form__search" placeholder="Tìm kiếm...">
+                            <i class="search-icon fas fa-search"></i>
+                        </form>
+                    </div>
+
+
+                    <div class="header__account">
+                        <i class="account-icon fas fa-user-circle"></i>
+                        <nav class="acount-text">
+                            <p>Khách</p>
+                            <p>Tài khoản</p>
+                        </nav>
+                        <div class="account-login">
+                            <a href="">Đăng nhập</a>
+                            <a href="">Đăng kí</a>
+                        </div>
+                    </div>
+                    <div class="header__cart">
+                        <i class="cart-icon fas fa-shopping-bag"></i>
+                        <a href="">Giỏ hàng</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ====================END HEADER================ -->
+        <div class="gomi_container">
+            <div class="grid">
+                <div class="container-top">
+                    <div class="container-navbar">
+                        <ul class="container-navbar__list">
+                            <li class="navbar__list-top navbar__list-top-list">
+                                <i class="fas fa-bars"></i> DANH MỤC SẢN PHẨM
+                                <ul class="top-list-product">
+                                    <li class="top-list-item">
+                                        <a href="">HOT - Khuyến mãi</a>
+                                    </li>
+                                    <li class="top-list-item">
+                                        <a href="">COOL SUMMER</a>
+                                    </li>
+                                    <li class="top-list-item">
+                                        <a href="">AMORE PACIFIC EVENT</a>
+                                    </li>
+                                    <li class="top-list-item">
+                                        <a href="">Sức khỏe & Sắc đẹp</a>
+                                    </li>
+                                    <li class="top-list-item">
+                                        <a href="">Nhà cửa & đời sống</a>
+                                    </li>
+                                    <li class="top-list-item">
+                                        <a href="">Gomi K-Food</a>
+                                    </li>
+                                    <li class="top-list-item">
+                                        <a href="">Bách hóa online</a>
+                                    </li>
+                                    <li class="top-list-item">
+                                        <a href="">Chăm sóc thú cưng</a>
+                                    </li>
+                                    <li class="top-list-item">
+                                        <a href="" class="top-list-item__more-detail">
+                                            <i class="fas fa-chevron-down"></i> Xem thêm</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navbar__list-top">Tất cả sản phẩm</li>
+                            <li class="navbar__list-top">Thương hiệu
+                                <i class="fas fa-chevron-down"></i>
+                            </li>
+                            <li class="navbar__list-top">AMORE EVENT</li>
+                            <li class="navbar__list-top">KOTRA</li>
+                            <li class="navbar__list-top">Tin tức</li>
+                            <li class="navbar__list-top">Liên hệ</li>
+                        </ul>
+                    </div>
+                    <!-- end container-navbar -->
+                    <div class="container-slider">
+                        <script>
+                            $(document).ready(function() {
+                                $('.owl-carousel').owlCarousel({
+                                    loop: true,
+                                    margin: 10,
+                                    nav: true,
+                                    responsive: {
+                                        0: {
+                                            items: 1
+                                        },
+                                        600: {
+                                            items: 1
+                                        },
+                                        1000: {
+                                            items: 1
+                                        }
+                                    }
+                                })
+                            });
+                        </script>
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <a href="">
+                                    <img src="asset/image/container-slider1.jpg" alt="" class="owl-them__img">
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="">
+                                    <img src="asset/image/container-slider2.jpg" alt="" class="owl-them__img">
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="">
+                                    <img src="asset/image/container-slider3.jpg" alt="" class="owl-them__img">
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="">
+                                    <img src="asset/image/container-slider4.jpg" alt="" class="owl-them__img">
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="">
+                                    <img src="asset/image/container-slider5.jpg" alt="" class="owl-them__img">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- end container slider -->
+                </div>
+                <div class="container-featured">
+                    <div class="featured__navbar">
+                        <h2>DANH MỤC NỔI BẬT</h2>
+                    </div>
+                    <div class="featured__product">
+                        <div class="grid__5-column">
+                            <a href="" class="feature__product-item">
+                                <img src="asset/image/container-featured1.png" alt="" class="feature__product-item-img">
+                                <h6 class="feature__product-item-title">Thời trang & phụ kiện</h6>
+                            </a>
+                        </div>
+                        <div class="grid__5-column">
+                            <a href="" class="feature__product-item">
+                                <img src="asset/image/container-featured2.png" alt="" class="feature__product-item-img">
+                                <h6 class="feature__product-item-title">Bách hóa Online</h6>
+                            </a>
+                        </div>
+                        <div class="grid__5-column">
+                            <a href="" class="feature__product-item">
+                                <img src="asset/image/container-featured3.png" alt="" class="feature__product-item-img">
+                                <h6 class="feature__product-item-title">Balo - Du lịch</h6>
+                            </a>
+                        </div>
+                        <div class="grid__5-column">
+                            <a href="" class="feature__product-item">
+                                <img src="asset/image/container-featured4.png" alt="" class="feature__product-item-img">
+                                <h6 class="feature__product-item-title">Đồ nội thất</h6>
+                            </a>
+                        </div>
+                        <div class="grid__5-column">
+                            <a href="" class="feature__product-item">
+                                <img src="asset/image/container-featured5.png" alt="" class="feature__product-item-img">
+                                <h6 class="feature__product-item-title">Mẹ và bé</h6>
+                            </a>
+                        </div>
+                        <div class="grid__5-column">
+                            <a href="" class="feature__product-item">
+                                <img src="asset/image/container-featured6.png" alt="" class="feature__product-item-img">
+                                <h6 class="feature__product-item-title">Gomi K-Food</h6>
+                            </a>
+                        </div>
+                        <div class="grid__5-column">
+                            <a href="" class="feature__product-item">
+                                <img src="asset/image/container-featured7.png" alt="" class="feature__product-item-img">
+                                <h6 class="feature__product-item-title">Chăm sóc thú cưng</h6>
+                            </a>
+                        </div>
+                        <div class="grid__5-column">
+                            <a href="" class="feature__product-item">
+                                <img src="asset/image/container-featured8.png" alt="" class="feature__product-item-img">
+                                <h6 class="feature__product-item-title">Đồ điện gia dụng</h6>
+                            </a>
+                        </div>
+                        <div class="grid__5-column">
+                            <a href="" class="feature__product-item">
+                                <img src="asset/image/container-featured9.png" alt="" class="feature__product-item-img">
+                                <h6 class="feature__product-item-title">Chăm sóc xe</h6>
+                            </a>
+                        </div>
+                        <div class="grid__5-column">
+                            <a href="" class="feature__product-item">
+                                <img src="asset/image/container-featured10.png" alt="" class="feature__product-item-img">
+                                <h6 class="feature__product-item-title">Sản phẩm của Kotra</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-content">
+                    <div class="container-content__navbar">
+                        <h2 class="content__navbar-title">GOMI K-FOOD</h2>
+                        <ul class="content__navbar-title-list">
+                            <li class="content__navbar-title-list-item">HOT - KHUYẾN MÃI</li>
+                            <li class="content__navbar-title-list-item">A'ADDICT EVENT</li>
+                            <li class="content__navbar-title-list-item">COOL SUMMER</li>
+                            <li class="content__navbar-title-list-item">AMORE PACIFIC EVENT</li>
+                            <li class="content__navbar-title-list-item">SỨC KHỎE & SẮC ĐẸP</li>
+                        </ul>
+                    </div>
+                    <div class="container-list-food">
+                        <div class="list-food__sidebar">
+                            <a href="">
+                                <img src="asset/image/container-sidebar.jpg" alt="" class="list-food__sidebar-img">
+                            </a>
+                        </div>
+                        <div class="list-food__main">
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-food1.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">Bánh Gạo Truyền Thống Hàn Quốc JinJi Bangchon Original Ttokppokki 546g</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">98.000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-food2.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">Mề Gà Hương Vị Hàn Quốc JinJi Chicken Gizzard</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">130..000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-food3.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">Thịt Heo Cốt Lết Phô Mai Tamyuk Tonkatsu Triple Cheese Pork Cutlet 375g</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">240.000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-food4.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">Thịt Viên Cà Chua Tamyuk Oh Seduk's Tomato Meatball 100g</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">236.000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-food5.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">Chân Gà Nướng Rút Xương JinJi Bone Less Chicken Feet 150g</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">98.000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-food6.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">Sườn Heo Nướng Sốt Arizona Tamyuk Arizona Barbeque Pork Rib 450g</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">290.000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-food7.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">Thịt Heo Cốt Lết Tamyuk Tonkatsu Handmade Pork Cutlet 80g</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">198.000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-food8.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">Thịt Xào Cay Jeju Hương Vị Hàn Quốc JinJi Jeju Spicy Bulgogi</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">140.000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container-content">
+                    <div class="container-content__navbar">
+                        <h2 class="content__navbar-title">VITAMIN & THỰC PHẨM CHỨC NĂNG</h2>
+                        <ul class="content__navbar-title-list">
+                            <li class="content__navbar-title-list-item">HỖ TRỢ LÀM ĐẸP DA</li>
+                            <li class="content__navbar-title-list-item">TĂNG, GIẢM CÂN</li>
+                            <li class="content__navbar-title-list-item">THỰC PHẨM CHO SỨC KHỎE</li>
+
+                        </ul>
+                    </div>
+                    <div class="container-list-food">
+                        <div class="list-food__sidebar">
+                            <a href="">
+                                <img src="asset/image/container-sidebar1-2.jpg" alt="" class="list-food__sidebar-img">
+                            </a>
+                        </div>
+                        <div class="list-food__main">
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-item1.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">Thạch Konjac Bổ Sung Vitamin Vị Trái Cây Tự Nhiên Rawel Thingle Konjac Jelly</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">39.000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-item2.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">Thạch Collagen Cá Thủy Phân Rawel Justick Fish Collagen Powder Stick</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">410.000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-item3.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">Viên Uống Giảm Căng Thẳng Và Mất Ngủ Heblis Good-night</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">240.000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-item4.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">
+                                        Viên Uống Giảm Căng Thẳng Và Mất Ngủ Heblis Good-night</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">190.000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-item5.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">Thức Uống Giúp Bùng Nổ Nốt Cao Khi Hát 0saengBogam Want Sound (Hộp 10 Gói)</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">132.000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-item6.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">Bột Sữa Non Hà Lan Cao Cấp Rawel Colostrum Protein Powder A+ 280g</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">500.000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-item7.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">Vitamin Tăng Cường Sức Đề Kháng Medilog All-round Multi Vit</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">780.000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                            <div class="list-food__item">
+                                <a class="list-food__item-thumb">
+                                    <img src="asset/image/container-list-item8.jpg" alt="" class="list-food-img">
+                                    <h3 class="list-food-title">Cà Phê Hương Vị Thời Joseon 0saengBogam SeoyangTangguk (Hộp 10 Gói)</h3>
+                                    <div class="food-price-rate">
+                                        <nav class="list-food-price">298.000đ</nav>
+                                        <nav class="list-food-rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </nav>
+                                    </div>
+
+                                </a>
+                                <div class="list-food__buy">
+                                    <a href="" class="add-food"><i class="fas fa-search-plus"></i></a>
+                                    <a href="" class="food-cart"> <i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- ========================END CONTAINER=============== -->
+        <footer class="footer">
+            <div class="grid">
+                <div class="footer-info">
+                    <div class="footer__about-gomi">
+                        <ul class="about-gomi">
+                            <li class="about-gomi__title">VỀ GOMI</li>
+                            <li class="about-gomi__detail">Chính sách bảo mật</li>
+                            <li class="about-gomi__detail">Điều khoản dịch vụ</li>
+                            <li class="about-gomi__detail">Giới thiệu</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__about-gomi">
+                        <ul class="about-gomi">
+                            <li class="about-gomi__title">HỖ TRỢ KHÁCH HÀNG</li>
+                            <li class="about-gomi__detail">Chính sách thanh toán</li>
+                            <li class="about-gomi__detail">Chính sách giao hàng</li>
+                            <li class="about-gomi__detail">Chính sách đổi hàng</li>
+                            <li class="about-gomi__detail">Chính sách hoàn tiền</li>
+                            <li class="about-gomi__detail">Kiểm tra đơn hàng</li>
+                        </ul>
+                    </div>
+                    <div class="footer__about-gomi">
+                        <ul class="about-gomi">
+                            <li class="about-gomi__title">CÔNG TY TNHH GOMI CORPORATION</li>
+                            <li class="about-gomi__detail">Lầu 6, Toà nhà QCOOP, 302 Nguyễn Văn Đậu, Phường 11, Quận Bình Thạnh, HCMC</li>
+                            <li class="about-gomi__detail">Hotline: (028) 7306 9796</li>
+                            <li class="about-gomi__detail">Email hỗ trợ: info@gomicorp.vn</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-youtube-square"></i>
+                </div>
+                <div class="copyright">
+                    <nav>2019 © Gomi corporation Inc. All rights reserved</nav>
+                </div>
+            </div>
+        </footer>
+        <!-- ===========================END FOOTER================== -->
+    </div>
+</body>
+
+</html>
